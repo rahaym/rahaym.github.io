@@ -46,10 +46,36 @@ td {
 .service{
 	color: white;
 }
+	ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(113, 129, 155, 1.00);
+}
+li {
+   display: inline-block;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: rgba(186, 194, 207, 1.00);
+}
 </style>
 </head>
 <header>
 <img src="logo-white.png" alt="logo">
+  <ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a href="#contact">Portfolio</a></li>
+  <li><a href="packages.html">Packages</a></li>
+</ul>
 </header>
 
 <body>
